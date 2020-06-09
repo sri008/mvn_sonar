@@ -24,7 +24,7 @@ pipeline {
       }
       stage('Build Clean') {
          steps {
-            sh label: '', script: '/opt/maven/bin/mvn clean install'
+            sh label: '', script: '/opt/maven/bin/mvn clean deploy'
          }
       }
    }
