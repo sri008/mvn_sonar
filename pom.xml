@@ -25,7 +25,7 @@
   <distributionManagement>
   <snapshotRepository>
     <id>artifactory</id>
-    <url>http://35.170.73.70:8082/artifactory/</url>
+    <url>http://13.232.32.7:8081/artifactory/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
