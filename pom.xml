@@ -23,9 +23,10 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-  <snapshotRepository>
-    <id>artifactory</id>
-    <url>http://13.232.32.7:8081/artifactory/</url>
-  </snapshotRepository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-36-50.ap-south-1.compute.internal-snapshots</name>
+        <url>http://13.232.32.7:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
